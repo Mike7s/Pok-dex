@@ -22,10 +22,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
     margin: 0 auto;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .paragraph {
@@ -101,3 +104,4 @@ body {
 button{
    background-color: #E2EAF3;
 }
+
